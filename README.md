@@ -14,7 +14,7 @@ Clasa `Comanda` conține un `std::vector<Produs*>`, ceea ce permite stocarea mai
 
 Pentru afișare am folosit operatorul `<<`, împreună cu o funcție virtuală de afișare în clasele derivate. Funcția `numaraPizza()` folosește `dynamic_cast` pentru a verifica dacă un produs din comandă este de tip `Pizza`. Validările sunt realizate prin excepții definite în `Exceptii.hpp`, iar în `main.cpp` sunt testate funcționalitățile principale ale proiectului.
 
-## Cateva din concepte POO folosite 
+## Cateva din conceptele POO folosite 
 
 - moștenire și clasă abstractă;
 - funcții virtuale și funcții virtuale pure;
