@@ -51,6 +51,19 @@ int main() {
         std::cout << "Dupa atribuire:\n";
         std::cout << comandaAsignata << "\n";
 
+        std::cout << "\n--- Test getteri ---\n";
+        std::cout << "Pizza: id=" << diavola.getId()
+                  << ", nume=" << diavola.getNume() << "\n";
+
+        std::cout << "Bautura: " << cola.getNume()
+                  << ", volum=" << cola.getVolumMl() << " ml\n";
+
+        std::cout << "Desert: " << clatite.getNume()
+                  << ", kcal=" << clatite.getKcal() << "\n";
+
+        std::cout << "\n--- Afisare comanda prin metoda afiseazaComanda() ---\n";
+        comandaCurenta.afiseazaComanda();
+
         std::cout << "Test exceptii:\n";
 
         try {

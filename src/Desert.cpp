@@ -5,7 +5,7 @@
 Desert::Desert() : Produs("Desert Generic", 15.0f), kcal(250) {}
 
 // constructor cu parametri
-Desert::Desert(std::string nume, float pret, int kcal) 
+Desert::Desert(const std::string& nume, float pret, int kcal) 
     : Produs(nume, pret) {
     setKcal(kcal); // apelam setterul ca sa trecem prin validare
 }

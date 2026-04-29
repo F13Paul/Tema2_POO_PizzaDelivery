@@ -5,7 +5,7 @@
 Bautura::Bautura() : Produs("Bautura Generica", 5.0f), volumMl(330) {}
 
 // constructor cu parametri
-Bautura::Bautura(std::string nume, float pret, int volumMl)
+Bautura::Bautura(const std::string& nume, float pret, int volumMl)
     : Produs(nume, pret), volumMl(330) {
     setVolumMl(volumMl);
 }

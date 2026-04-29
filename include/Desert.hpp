@@ -10,7 +10,7 @@ private:
 public:
     // constructori
     Desert();
-    Desert(std::string nume, float pret, int kcal);
+    Desert(const std::string& nume, float pret, int kcal);
     Desert(const Desert& altul); //
 
     // destructor

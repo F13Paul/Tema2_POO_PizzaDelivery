@@ -12,7 +12,7 @@ private:
 public:
     // constructori
     Pizza();
-    Pizza(std::string nume, float pret, const std::vector<std::string>& ingrediente);
+    Pizza(const std::string& nume, float pret, const std::vector<std::string>& ingrediente);
     Pizza(const Pizza& alta); // Constructor de copiere
 
     // destructor

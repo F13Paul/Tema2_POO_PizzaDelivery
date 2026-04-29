@@ -10,7 +10,7 @@ private:
 public:
     // constructori
     Bautura();
-    Bautura(std::string nume, float pret, int volumMl);
+    Bautura(const std::string& nume, float pret, int volumMl);
     Bautura(const Bautura& alta); // Constructor de copiere
 
     // destructor

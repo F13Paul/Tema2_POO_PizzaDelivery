@@ -14,7 +14,7 @@ protected:
 public:
     // constructori
     Produs(); // default
-    Produs(std::string nume, float pret); // cu parametri
+    Produs(const std::string& nume, float pret); // cu parametri
     Produs(const Produs& altul); // cosntructor de copiere
 
     // destructor virtual (OBLIGATORIU la moștenire)
@@ -25,7 +25,7 @@ public:
 
     // getteri și setteri
     int getId() const { return id; }
-    std::string getNume() const { return nume; }
+    const std::string& getNume() const { return nume; }
     void setPretDeBaza(float pret); // aici vom avea exceptia daca pretul e invalid
 
     // metode polimorfice (virtuale)

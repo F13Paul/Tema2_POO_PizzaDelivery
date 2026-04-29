@@ -5,7 +5,7 @@
 Pizza::Pizza() : Produs("Pizza Custom", 20.0f) {}
 
 // constructor cu parametri (apelam constructorul clasei de baza)
-Pizza::Pizza(std::string nume, float pret, const std::vector<std::string>& ingrediente)
+Pizza::Pizza(const std::string& nume, float pret, const std::vector<std::string>& ingrediente)
     : Produs(nume, pret) {
     for (const auto& ingredient : ingrediente) {
         adaugaIngredient(ingredient);
