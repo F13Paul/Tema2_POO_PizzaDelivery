@@ -26,3 +26,13 @@ Pentru afișare am folosit operatorul `<<`, împreună cu o funcție virtuală d
 - supraîncărcarea operatorilor `<<` și `>>`;
 - excepții proprii;
 - membri statici pentru generarea id-urilor.
+
+## Exemplu de rulare
+
+Mai jos este un output-ul programului:
+
+![Output program - partea 1](images/output1.png)
+
+*Continuare:*
+
+![Output program - partea 2](images/output2.png)
