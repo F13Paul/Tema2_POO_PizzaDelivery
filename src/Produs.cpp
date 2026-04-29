@@ -1,6 +1,5 @@
 #include "Produs.hpp"
 #include "Exceptii.hpp"
-#include <utility>
 
 // initializare contor static
 int Produs::contorId = 1;
@@ -10,7 +9,7 @@ Produs::Produs() : id(contorId++), nume("Produs Necunoscut"), pretDeBaza(0.0f) {
 
 // constructor cu parametri
 Produs::Produs(const std::string& nume, float pret)
-    : id(contorId++), nume(std::move(nume)), pretDeBaza(0.0f) {
+    : id(contorId++), nume(nume), pretDeBaza(0.0f) {
     setPretDeBaza(pret);
 }
 
