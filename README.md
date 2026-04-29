@@ -29,7 +29,7 @@ Pentru afișare am folosit operatorul `<<`, împreună cu o funcție virtuală d
 
 ## Exemplu de rulare
 
-Mai jos este un output-ul programului:
+Mai jos este output-ul programului:
 
 ![Output program - partea 1](images/output1.png)
 
